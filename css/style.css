@@ -143,7 +143,7 @@ body {
   border-top: 1px solid #888;
 }
 .element1 p {
-  font-size: 4vw; /* or whatever matches your original h1 */
+  font-size: 8vw; /* or whatever matches your original h1 */
   font-weight: 500;
 }
 
