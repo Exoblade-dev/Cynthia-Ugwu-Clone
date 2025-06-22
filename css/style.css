@@ -1,15 +1,29 @@
 @font-face {
-  font-family: 'General Sans Medium';
-  src: url('./fonts/GeneralSans-Medium.otf') format('opentype');
-  font-weight: normal;
+  font-family: 'General Sans';
+  src: url('../fonts/GeneralSans-Regular.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('../fonts/GeneralSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
 
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'General Sans Medium', sans-serif;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'General Sans', sans-serif;
+}
+
+
 #main {
   width: 100%;
   background-color: black;
@@ -128,6 +142,11 @@
   box-sizing: border-box;
   border-top: 1px solid #888;
 }
+.element1 p {
+  font-size: 4vw; /* or whatever matches your original h1 */
+  font-weight: 500;
+}
+
 .element2 {
   border-bottom: 1px solid #888;
 }
