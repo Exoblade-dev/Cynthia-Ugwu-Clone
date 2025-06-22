@@ -1,0 +1,351 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "General Sans Medium";
+}
+#main {
+  width: 100%;
+  background-color: black;
+}
+#mainPage {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+#nav {
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav a {
+  text-decoration: none;
+  color: white;
+}
+#heading {
+  margin-top: 30px;
+}
+#heading h1 {
+  font-family: "General Sans";
+  font-size: 9vw;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-left: 50px;
+  opacity: 0.7;
+  letter-spacing: 8px;
+}
+#heading h5 {
+  text-transform: uppercase;
+}
+#heading2 {
+  /* background-color: red; */
+  width: fit-content;
+  margin-left: 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+#secondHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-transform: uppercase;
+  margin-right: 50px;
+  margin-top: 200px;
+  font-size: 20px;
+}
+#mainFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 50px;
+  box-sizing: border-box;
+}
+#workedat {
+  display: flex;
+  flex-direction: column;
+}
+#mainFooter a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#mainFooter a i {
+  color: white;
+}
+#iconset a i{
+  color: black;
+  font-weight: bold;
+}
+#iconset {
+  display: flex;
+  gap: 5px;
+}
+.circle {
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 50%;
+  padding: 3px 6px;
+}
+
+#secondPage {
+  height: auto;
+  background-color: black;
+}
+
+#elements {
+  width: 90%;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+
+.element1 {
+  position: relative;
+  /* border-bottom: 1px solid #888; */
+  padding: 8vh 0px;
+  color: white;
+  font-size: 4vw;
+  text-transform: uppercase;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-top: 1px solid #888;
+}
+.element2 {
+  border-bottom: 1px solid #888;
+}
+.element1 h5 {
+  font-size: 16px;
+  color: white;
+}
+
+#viewAllWorkButton {
+  padding: 50px 50px;
+}
+
+#viewAllWorkButton button {
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#viewAllWorkButton button:hover {
+  background-color: white;
+  color: black;
+}
+
+#about {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+#userReview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 0px 13vw;
+  padding-top: 8vw;
+  padding-bottom: 4vw;
+  box-sizing: border-box;
+}
+
+#userReview img {
+  width: 200px;
+}
+#userComment {
+  width: 450px;
+  /* background-color: red; */
+}
+#userComment h4 {
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  font-family: General Sans;
+}
+#userComment p {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: General Sans;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+#userComment button {
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#userComment button:hover {
+  background-color: white;
+  color: black;
+}
+
+#subscribe {
+  background-color: black;
+  color: white;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+#subscribe h4 {
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-family: General Sans;
+}
+#subscribe h3 {
+  text-transform: uppercase;
+  font-family: General Sans;
+}
+
+#copyright {
+  background-color: black;
+}
+#copyrightinfo {
+  width: 100%;
+  padding: 100px 50px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#copyrightleft {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  gap: 3vw;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 1px solid white;
+}
+#copyrightright {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+#copyrightright a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#disclaimer {
+    color: white;
+    text-align: right;
+    padding: 30px;
+}
+#disclaimer a{
+    text-decoration: none;
+    color: rgb(112, 30, 255);
+    cursor: pointer;
+}
+
+/* following circle code here  */
+#followingCircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0) scale(1, 1);
+    pointer-events: none;
+    z-index: 9999;
+    
+}
+
+/* #followingCircle {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.05s linear;
+} */
+
+.bounding{
+  width: fit-content;
+  /* background-color: red; */
+  overflow: hidden;
+}
+.bounding h1{
+  transform: translateY(100%);
+}
+.bounding h5{
+  transform: translateY(-100%);
+}
+
+.element1 img {
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-60%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  z-index: 999;
+}
+
+
+.hover-underline {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* slight gap from text */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.hover-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.hover-underline:not(:hover)::after {
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
