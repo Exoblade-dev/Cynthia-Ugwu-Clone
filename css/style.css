@@ -43,6 +43,7 @@ body {
 #nav a {
   text-decoration: none;
   color: white;
+  font-weight: 500;
 }
 #heading {
   margin-top: 30px;
@@ -96,6 +97,7 @@ body {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 500;
 }
 #mainFooter a i {
   color: white;
@@ -276,6 +278,7 @@ body {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 500;
 }
 #disclaimer {
     color: white;
