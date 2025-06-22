@@ -1,7 +1,14 @@
+@font-face {
+  font-family: 'General Sans Medium';
+  src: url('./fonts/GeneralSans-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "General Sans Medium";
+  font-family: 'General Sans Medium', sans-serif;
 }
 #main {
   width: 100%;
