@@ -134,6 +134,7 @@ body {
   padding: 8vh 0px;
   color: white;
   font-size: 8vw;
+  font-weight: 500;
   text-transform: uppercase;
   opacity: 0.7;
   display: flex;
@@ -141,10 +142,6 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
   border-top: 1px solid #888;
-}
-.element1 p {
-  font-size: 8vw; /* or whatever matches your original h1 */
-  font-weight: 500;
 }
 
 .element2 {
